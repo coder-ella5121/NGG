@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.container{
+  background-color: black;
+  height: 540px;
+  width: 400px;
+  border: 2px solid wheat;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.393);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input{
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.up-hr{
+  margin-bottom: 20px;
+}
+.bt-hr{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.hr{
+  margin-top: 20px;
+}
+.container button{
+  padding: 4px 20px;
+  border-radius: 8px;
+}
+.result{
+  font-size: 25px;
+}
+.score{
+  padding-left: 20px;
+  margin-top: 20px;
+  text-align: start;
+  font-size: 20px;
+}
+.scoree{
+  display: flex;
+  padding-left: 20px;
+  margin-top: 20px;
+  text-align: start;
+  font-size: 20px;
+}
+.number{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(230, 226, 226);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+}
+h1 span{
+  font-size: 15px;
+}
+.restart{
+  margin-top: 20px;
+}
+.restart button{
+  border: none;
+  padding: 5px 70px;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width: 769px) {
+  .container{
+    background-color: black;
+    height: 480px;
+    width: 300px;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.393);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .input{
+    width: 150px;
+  }
+  .result{
+    font-size: 20px;
+  }
+  .score{
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 15px;
+  }
+  .scoree{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 15px;
+  }
+  .number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(230, 226, 226);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    font-size: 15px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h1 span{
+    font-size: 10px;
+  }
+  .container button{
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  .restart button{
+    border: none;
+    padding: 4px 50px;
+    font-weight: 900;
+    font-size:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
+@media (max-width: 426px) {
+  .container{
+    background-color: black;
+    height:440px;
+    width: 230px;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.393);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .input{
+    width: 120px;
+    font-size: 10px;
+  }
+  .result{
+    font-size: 15px;
+  }
+  .score{
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 10px;
+  }
+  .scoree{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 10px;
+  }
+  .number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(230, 226, 226);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    font-size: 10px;
+  }
+  h1{
+    font-size: 15px;
+  }
+  h1 span{
+    font-size: 8px;
+  }
+  .container button{
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 10px;
+  }
+  .restart button{
+    border: none;
+    padding: 4px 30px;
+    font-weight: 900;
+    font-size:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
